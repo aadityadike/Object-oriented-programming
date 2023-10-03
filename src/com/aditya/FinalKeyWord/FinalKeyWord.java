@@ -1,4 +1,4 @@
-package com.aditya.classes;
+package com.aditya.FinalKeyWord;
 
 public class FinalKeyWord {
     public static void main(String[] args) {
@@ -10,9 +10,9 @@ public class FinalKeyWord {
         final Some something = new Some("SomeOne");
         System.out.println(something.name);
         // cannot change the object because the object is finalized. 🔒
-        // I can change value of the object because the variable is pointing to reference of the object.🗾
-        // So we cannot change the reference we cannot point to different object,🐷
-        // but we can change the value because the objects reference will remain same even when we change the value.🦝
+        // I can change the value of the object because the variable is pointing to reference of the object.🗾
+        // So we cannot change the reference, we cannot point to different object,🐷
+        // but we can change the value because the objects reference will remain the same even when we change the value.🦝
         // something = new Some("anything");
     }
 

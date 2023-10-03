@@ -1,4 +1,4 @@
-package com.aditya.classes;
+package com.aditya.GarbageCollection;
 
 public class GarbageCollection {
     public static void main(String[] args) {

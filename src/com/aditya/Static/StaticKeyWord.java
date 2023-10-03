@@ -1,4 +1,4 @@
-package com.aditya.classes;
+package com.aditya.Static;
 
 public class StaticKeyWord {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class StaticKeyWord {
         /*
              greeting();
         */
-        // if I create one object it will work.
+        // if I create one object, it will work.
         StaticKeyWord obj = new StaticKeyWord();
         obj.greeting();
     }
