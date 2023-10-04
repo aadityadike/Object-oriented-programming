@@ -7,22 +7,15 @@ public class SmartPhone {
     // here false means micro usb & true means type C.
     boolean cableType;
 
-    SmartPhone() {
-        this.os = "android";
-        this.camera = "sony";
-        this.battery = 3000;
-        this.cableType = false;
+    public SmartPhone() {
+    }
+
+    public SmartPhone(String os, String camera, int battery, boolean cableType) {
+        this.os = os;
+        this.camera = camera;
+        this.battery = battery;
+        this.cableType = cableType;
     }
 }
 
-class Iphone extends SmartPhone {
-    String browser;
 
-    public Iphone() {
-        this.browser = "Safari";
-    }
-
-    public Iphone(String browser) {
-        this.browser = browser;
-    }
-}
